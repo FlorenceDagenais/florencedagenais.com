@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Teddy | Portfolio Florence Dagenais</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <!--
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        //-->
+        <script src="scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="scripts/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/logo.png" alt="Logo" />
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="" id="contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="contact-info">
+            <img src="images/email.png" alt="email address" />
+        </div>
+
+        <div id="mosaique">
+            <script type="text/javascript">
+                var project_head = Object.create(global.tile);
+                    project_head.dim = [800, 450];
+                    project_head.img = "images/projects/teddy/project_head.png";
+
+                var uv = Object.create(global.tile);
+                    uv.dim = [260, 260];
+                    uv.img = "images/projects/teddy/uv.png";
+                    uv.legend = "UVs dépliés";
+
+                var wf1 = Object.create(global.tile);
+                    wf1.dim = [260, 260];
+                    wf1.img = "images/projects/teddy/wireframes1.png";
+                    wf1.legend = "Wire Frames";
+
+                var wf2 = Object.create(global.tile);
+                    wf2.dim = [260, 260];
+                    wf2.img = "images/projects/teddy/wireframes2.png";
+
+                var description = Object.create(global.tile);
+                    description.dim = [540, 150];
+                    description.text = "<p>Ce projet a été modélisé comme accessoire dans une des scènes du court métrage du poisson. Il fallait garder en tête, lors de la modélisation, le nombre important d’objets à rendre dans cette même scène. C’est pourquoi, la grande contrainte était de garder le nombre de polygones à un minimum afin de diminuer le temps de rendu. Un bump map a été ajouté afin de minimiser le niveau de détail nécessaire. Les éclairages et l'environnement on été changés par la suite afin de me familiariser davantage avec les éclairages dans Maya.</p>";
+
+                var software = Object.create(global.tile);
+                    software.dim = [250, 160];
+                    software.color = "#1D2226";
+                    software.text = "<p class='date'>Janvier 2012</p>" +
+                                    "<p>Logiciels utilisés:" + 
+                                    "<ul><li> Maya </li>" + 
+                                    "<li>Unfold 3D </li>" +
+                                    "<li>Photoshop</li></ul></p>";
+
+
+                var mosaique = [];
+
+                 // 2d array of rows.
+                 mosaique[0] = [project_head];
+                 mosaique[1] = [description, software];
+                 mosaique[2] = [uv, wf1, wf2];
+
+                renderMosaique(mosaique);
+            </script>
+        </div>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36006626-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    </body>
+</html>

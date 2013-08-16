@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>2D | Portfolio Florence Dagenais</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <!--
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        //-->
+        <script src="scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="scripts/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/logo.png" alt="Logo" />
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="" id="contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="contact-info">
+            <img src="images/email.png" alt="email address" />
+        </div>
+
+        <div id="mosaique">
+            <script type="text/javascript">
+                var miroir = Object.create(global.tile);
+                    miroir.dim = [300, 375];
+                    miroir.title = "Miroir";
+                    miroir.img = "images/projects/miroir.png";
+                    miroir.href = "miroir.html";
+
+                var firenze = Object.create(global.tile);
+                    firenze.dim = [490, 647];
+                    firenze.title = "Firenze";
+                    firenze.img = "images/projects/florence.png";
+                    firenze.dx = -310;
+                    firenze.href = "firenze.html";
+
+                var park = Object.create(global.tile);
+                    park.dim = [300, 262];
+                    park.title = "Le Parc";
+                    park.img = "images/projects/park.png";
+                    park.x = 0;
+                    park.y = 385;
+                    park.href = "parc.html";
+
+                var chalet = Object.create(global.tile);
+                    chalet.dim = [590, 279];
+                    chalet.title = "Le Chalet";
+                    chalet.img = "images/projects/chalet.png";
+                    chalet.href = "chalet.html";
+
+                var autoportrait = Object.create(global.tile);
+                    autoportrait.dim = [200, 279];
+                    autoportrait.title = "Autoportrait";
+                    autoportrait.img = "images/projects/autoportrait.png";
+                    autoportrait.href = "autoportrait.html";
+
+                var mariage = Object.create(global.tile);
+                    mariage.dim = [400, 225];
+                    mariage.title = "Le Mariage";
+                    mariage.img = "images/projects/mariage.png";
+                    mariage.href = "mariage.html";
+
+                var carte = Object.create(global.tile);
+                    carte.dim = [390, 225];
+                    carte.title = "Reproductions";
+                    carte.img = "images/projects/carte.png";
+                    carte.href = "cartes.html";
+
+
+                var mosaique = [];
+
+                // 2d array of rows.
+                mosaique[0] = [miroir, park, firenze];
+                mosaique[1] = [chalet, autoportrait];
+                mosaique[2] = [mariage, carte];
+
+                renderMosaique(mosaique);
+            </script>
+        </div>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36006626-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    </body>
+</html>

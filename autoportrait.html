@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Autoportrait | Portfolio Florence Dagenais</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <!--
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        //-->
+        <script src="scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="scripts/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/logo.png" alt="Logo" />
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="" id="contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="contact-info">
+            <img src="images/email.png" alt="email address" />
+        </div>
+
+        <div id="mosaique">
+            <script type="text/javascript">
+                var portrait1 = Object.create(global.tile);
+                    portrait1.dim = [385, 537];
+                    portrait1.img = "images/projects/autoportrait/autoportrait1.png";
+
+                var portrait2 = Object.create(global.tile);
+                    portrait2.dim = [385, 537];
+                    portrait2.img = "images/projects/autoportrait/autoportrait2.png";
+
+                var description = Object.create(global.tile);
+                    description.dim = [350, 150];
+                    description.text = "<p>Le dessin réaliste d’un portrait a toujours été, pour moi, un défi. À partir d’une photographie, j’ai reproduit ce portrait afin de me familiariser d'abord avec le dessin réaliste, mais également avec les proportions d’un visage humain.</p>";
+
+                var software = Object.create(global.tile);
+                    software.dim = [330, 150];
+                    software.color = "#1D2226";
+                    software.text = "<p class='date'>Février 2009</p><p>Techniques:" + 
+                                    "<ul><li>Dessin à main levée</li>";
+                    
+                var mosaique = [];
+
+                 // 2d array of rows.
+                 mosaique[0] = [portrait1, portrait2];
+                 mosaique[1] = [software, description];
+
+                renderMosaique(mosaique);
+            </script>
+        </div>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36006626-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    </body>
+</html>

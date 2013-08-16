@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Le Mariage | Portfolio Florence Dagenais</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <!--
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        //-->
+        <script src="scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="scripts/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/logo.png" alt="Logo" />
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="" id="contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="contact-info">
+            <img src="images/email.png" alt="email address" />
+        </div>
+
+        <div id="mosaique">
+            <script type="text/javascript">
+                var project_head = Object.create(global.tile);
+                    project_head.dim = [800, 451];
+                    project_head.img = "images/projects/mariage/mariage.png";
+
+                var description = Object.create(global.tile);
+                    description.dim = [540, 150];
+                    description.text = "<p>Ce projet avait pour but de mettre en valeur un bâtiment ayant une géométrie complexe dans une composition à deux points de fuite tout en donnant vie à la scène. Une des contraintes était d’intégrer une photographie dans la composition.</p>";
+
+                var software = Object.create(global.tile);
+                    software.dim = [250, 180];
+                    software.color = "#1D2226";
+                    software.text = "<p class='date'>Mars 2009</p><p>Techniques:" + 
+                                    "<ul><li>Photographie</li>" +
+                                    "<li>Dessin aux instruments</li>";
+
+                var mosaique = [];
+
+                 // 2d array of rows.
+                 mosaique[0] = [project_head];
+                 mosaique[1] = [description, software];
+
+                renderMosaique(mosaique);
+            </script>
+        </div>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36006626-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    </body>
+</html>
