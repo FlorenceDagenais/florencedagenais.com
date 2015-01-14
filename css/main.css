@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
 body {
     background: url('../images/green_cup.png') repeat;
 }
@@ -54,18 +56,39 @@ body {
     padding: 0 100px;
 }
 
-#projet1 {
-    background: url(../images/projet_reflections.png) no-repeat #000;
+.project {
     height: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.description {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+
+    display: none;
+}
+
+.description h1 {
+    color: #ddd;
+    margin: 13px 10px 0 10px;
+    font-family: "Droid Serif", serif;
+    font-size: 24pt;
+}
+
+#project1 {
+    background: url(../images/projet_reflections.png) no-repeat #000;
     background-position: right;
 }
 
-#projet2 {
+#project2 {
     background: url(../images/projet_cave.png);
-    height: 500px;
 }
 
-#projet3 {
+#project3 {
     background: url(../images/projet_manoir.png);
-    height: 500px;
 }
