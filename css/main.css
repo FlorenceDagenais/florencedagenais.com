@@ -81,14 +81,15 @@ body {
 }
 
 #project1 {
-    background: url(../images/projet_reflections.png) no-repeat #000;
+    background: url(../images/projet_reflections.png) no-repeat black;
     background-position: right;
 }
 
 #project2 {
-    background: url(../images/projet_cave.png);
+    background: url(../images/projet_cave.png) no-repeat black;
 }
 
 #project3 {
-    background: url(../images/projet_manoir.png);
+    background: url(../images/projet_manoir.png) no-repeat black;
+    background-position: center center;
 }
