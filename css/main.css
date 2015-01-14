@@ -53,3 +53,19 @@ body {
 .padded {
     padding: 0 100px;
 }
+
+#projet1 {
+    background: url(../images/projet_reflections.png) no-repeat #000;
+    height: 500px;
+    background-position: right;
+}
+
+#projet2 {
+    background: url(../images/projet_cave.png);
+    height: 500px;
+}
+
+#projet3 {
+    background: url(../images/projet_manoir.png);
+    height: 500px;
+}
