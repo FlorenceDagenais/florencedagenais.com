@@ -2,15 +2,21 @@ body {
     background: url('../images/green_cup.png') repeat;
 }
 
+#header {
+    height: 100px;
+    line-height: 100px;
+}
+
 #nav {
     background: url('../images/halftone.png') repeat-x;
     height: 50px;
-    width: 100%;
     box-shadow: 2px 2px 10px #777;
+    margin-bottom: 30px;
 }
 
 #nav ul {
     list-style: none;
+    padding: 0;
 }
 
 #nav ul li {
@@ -38,4 +44,12 @@ body {
 
 #nav ul li a.active {
     border-bottom: 3px solid #3b81b1;
+}
+
+#social img {
+    margin-top: 5px;
+}
+
+.padded {
+    padding: 0 100px;
 }
