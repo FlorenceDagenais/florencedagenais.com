@@ -35,3 +35,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     text-decoration: none;
 }
+
+#nav ul li a.active {
+    border-bottom: 3px solid #3b81b1;
+}
