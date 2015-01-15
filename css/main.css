@@ -114,6 +114,18 @@ body {
     background-position: right center;
 }
 
+#cave-full {
+    height: 359px;
+    background: url("../images/full_cave.png") no-repeat;
+    background-position: center center;
+}
+
+#manoir-full {
+    height: 359px;
+    background: url("../images/full_manoir.png") no-repeat;
+    background-position: center center;
+}
+
 .video {
     margin-top: 30px;
 }
