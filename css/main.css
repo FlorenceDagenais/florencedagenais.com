@@ -17,6 +17,10 @@ body {
     margin-bottom: 30px;
 }
 
+#nav-container {
+    max-width: 1390px;
+}
+
 #nav ul {
     list-style: none;
     padding: 0;
