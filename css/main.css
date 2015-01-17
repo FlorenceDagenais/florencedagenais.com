@@ -7,6 +7,7 @@ body {
 #header {
     height: 100px;
     line-height: 100px;
+    max-width: 1390px;
 }
 
 #nav {
@@ -58,6 +59,7 @@ body {
 
 #content {
     margin-bottom: 30px;
+    max-width: 1390px;
 }
 
 .padded {
@@ -109,18 +111,21 @@ body {
 }
 
 #reflections-full {
+    max-width: 1390px;
     height: 359px;
     background: url("../images/full_reflections.png") no-repeat;
     background-position: right center;
 }
 
 #cave-full {
+    max-width: 1390px;
     height: 359px;
     background: url("../images/full_cave.png") no-repeat;
     background-position: center center;
 }
 
 #manoir-full {
+    max-width: 1390px;
     height: 359px;
     background: url("../images/full_manoir.png") no-repeat;
     background-position: center center;
