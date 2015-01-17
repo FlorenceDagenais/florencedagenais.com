@@ -7,4 +7,9 @@ $(document).ready(function() {
        $(this).children(".description").hide();
     });
 
+    // Enable tooltips!
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
 });
