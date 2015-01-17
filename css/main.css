@@ -69,6 +69,10 @@ body {
     padding: 0 100px;
 }
 
+.row-margin {
+    margin: 15px 0 0 0;
+}
+
 .project {
     height: 500px;
     position: relative;
@@ -89,7 +93,6 @@ body {
 .description h1 {
     color: #ddd;
     margin: 13px 10px 0 10px;
-    font-family: "Droid Serif", serif;
     font-size: 24pt;
 }
 
@@ -140,4 +143,31 @@ body {
 
 .centered {
     text-align: center;
+}
+
+.gdd-dld {
+    margin-top: 20px;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* Default Fonts */
+p, ul li {
+    font-family: Lato, sans-serif;
+}
+
+#nav ul li a {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 12pt;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: "Cinzel Decorative", "Droid Serif", serif;
 }

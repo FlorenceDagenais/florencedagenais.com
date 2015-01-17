@@ -3,6 +3,9 @@
   <head>
     <title>Portfolio Florence Dagenais | Reflections</title>
 
+    <!-- Fonts //-->
+    <link href='http://fonts.googleapis.com/css?family=Lato|Bad+Script|Cinzel+Decorative' rel='stylesheet' type='text/css'>
+
     <!-- jQuery //-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
@@ -16,6 +19,10 @@
     <!-- Custom //-->
     <link rel="stylesheet" href="css/main.css" />
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Lightbox //-->
+    <script src="js/lightbox.min.js"></script>
+    <link href="css/lightbox.css" rel="stylesheet" />
 
   </head>
   <body>
@@ -96,8 +103,18 @@
               <li>Level Design</li>
             </ul>
           </p>
+ 
+        </div> <!-- End col for text. //-->
 
-          <p>Vous pouvez télécharger le GDD du projet en cliquant sur l'icône
+        <div class="col-md-7 video">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="http://player.vimeo.com/video/114898271" width="700" height="413" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/114898271">Reflections</a> from <a href="http://vimeo.com/user35595785">Florence Dagenais</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+            <h2>Download the Game Design Document</h2>
+
+          </div>
+
+          <p class="gdd-dld">Vous pouvez télécharger le GDD du projet en cliquant sur l'icône
           suivant. Attention, il s'agit d'un gros document (105 MB).</p>
 
           <p class="centered">
@@ -106,12 +123,28 @@
             </a>
           </p>
 
-        </div> <!-- End col for text. //-->
+        </div>
 
-        <div class="col-md-7 video">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="http://player.vimeo.com/video/114898271" width="700" height="413" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/114898271">Reflections</a> from <a href="http://vimeo.com/user35595785">Florence Dagenais</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-          </div>
+      </div> <!-- End row //-->
+
+      <div class="row text-center">
+
+        <div class="col-md-12">
+          <h2>Unreal UMG</h2>
+          <a href="images/reflections_blueprint_high_res.png" data-lightbox="blueprint"><img src="images/reflections_blueprint.png" alt="Screenshot of reflections blueprint system in Unreal." /></a>
+        </div>
+
+      </div> <!-- End row //-->
+
+      <div class="row text-center row-margin">
+
+        <h2>Interface utilisteur</h2>
+        <div class="col-xs-6 align-right">
+          <a href="images/reflections_lobby_high_res.png" data-lightbox="lobby"><img src="images/reflections_lobby.png" alt="Reflections game, Game lobby" /></a>
+        </div>
+
+        <div class="col-xs-6 align-left">
+          <a href="images/reflections_menu_high_res.png" data-lightbox="menu"><img src="images/reflections_menu.png" alt="Reflections game, Menu" /></a>
         </div>
 
       </div> <!-- End row //-->
