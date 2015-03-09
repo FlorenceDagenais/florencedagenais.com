@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".project").hover(function() {
+    $(".project, .long-project").hover(function() {
        $(this).children(".description").show({"duration": 200});
     },
     function() {

@@ -80,6 +80,14 @@ body {
     left: 0;
 }
 
+.long-project {
+    height: 359px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 .description {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
@@ -108,6 +116,11 @@ body {
 #project3 {
     background: url(../images/projet_manoir.png) no-repeat black;
     background-position: center center;
+}
+
+#project-extinction {
+    background: url(../images/projet_extinction.png) no-repeat black;
+    background-position: center;
 }
 
 .full-box-link {
