@@ -145,6 +145,13 @@ body {
     background-position: center center;
 }
 
+#extinction-full {
+    max-width: 1390px;
+    height: 359px;
+    background: url("../images/full_extinction.png") no-repeat;
+    background-position: left center;
+}
+
 .video {
     margin-top: 30px;
 }
