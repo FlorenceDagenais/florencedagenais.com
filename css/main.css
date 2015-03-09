@@ -105,21 +105,16 @@ body {
 }
 
 #project1 {
-    background: url(../images/projet_reflections.png) no-repeat black;
+    background: url(../images/full_reflections.png) no-repeat black;
     background-position: right;
 }
 
 #project2 {
-    background: url(../images/projet_cave.png) no-repeat black;
-}
-
-#project3 {
-    background: url(../images/projet_manoir.png) no-repeat black;
-    background-position: center center;
+    background: url(../images/full_cave.png) no-repeat black;
 }
 
 #project-extinction {
-    background: url(../images/projet_extinction.png) no-repeat black;
+    background: url(../images/full_extinction.png) no-repeat black;
     background-position: center;
 }
 
