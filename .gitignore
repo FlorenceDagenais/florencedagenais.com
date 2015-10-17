@@ -1,2 +1,4 @@
 WORK
 *.swp
+build
+.DS_Store

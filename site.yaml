@@ -1,0 +1,14 @@
+configuration:
+    static_dir: assets  # Static directory.
+    build_dir: build
+    template_dir: templates
+
+pages:
+    - filename: index.html
+      template: default.html
+      content: content/index.html
+
+    - filename: extinction.html
+      template: default.html
+      content: content/extinction.html
+

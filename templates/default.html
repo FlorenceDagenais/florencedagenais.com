@@ -1,7 +1,8 @@
 <!Doctype html>
 <html>
   <head>
-    <title>Portfolio Florence Dagenais | The Manoir</title>
+    {% if title %}<title>{{ title }}</title>
+    {% else %}<title>Florence Dagenais - Portfolio</title>{% endif %}
 
     <!-- Fonts //-->
     <link href='http://fonts.googleapis.com/css?family=Lato|Bad+Script|Cinzel+Decorative' rel='stylesheet' type='text/css'>
@@ -17,7 +18,8 @@
     <meta charset="UTF-8">
 
     <!-- Custom //-->
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script type="text/javascript" src="assets/js/main.js"></script>
 
   </head>
   <body>
@@ -26,14 +28,7 @@
       <div class="row">
 
         <div id="logo" class="col-xs-8">
-          <img src="images/logo.png" alt="Florence Dagenais - Technical artist" />
-        </div>
-        <div id="social" class="col-xs-4 hidden-xs">
-          <a href=""><img src="images/icon_wordpress.png" /></a>
-          <a href="http://ca.linkedin.com/pub/florence-dagenais/51/839/357/fr" target="_blank">
-            <img src="images/icon_linkedin.png" />
-          </a>
-
+          <img src="assets/images/logo.png" alt="Florence Dagenais - Technical artist" />
         </div>
 
       </div>
@@ -44,33 +39,16 @@
         <div class="row">
           <div class="col-md-12">
             <ul>
-              <li><a href="index.html">Accueil</a></li>
+              <li><a href="" class="home">Accueil</a></li>
               <li><a href="mailto:florencedagenais@gmail.com" data-toggle="tooltip" data-placement="top" title="florencedagenais@gmail.com">Contact</a></li>
-              <li><a href="pdf/CV_Florence_Dagenais.pdf" target="_blank">CV</a></li>
+              <li><a href="assets/pdf/CV_Florence_Dagenais.pdf" target="_blank">CV</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="content" class="container-fluid padded">
 
-      <div class="row">
-        <div class="col-md-12" id="manoir-full"></div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-5">
-          <h1>Manoir</h1>
-        </div> <!-- End col for text. //-->
-
-        <div class="col-md-7 video">
-        </div>
-
-      </div> <!-- End row //-->
-
-    </div> <!-- End content container //-->
-
+  {{ content|safe }}
   </body>
 </html>
