@@ -12,3 +12,10 @@ pages:
       template: default.html
       content: content/extinction.html
 
+    - filename: reflections.html
+      template: default.html
+      content: content/reflections.html
+
+    - filename: cave.html
+      template: default.html
+      content: content/cave.html

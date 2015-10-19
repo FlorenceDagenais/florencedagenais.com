@@ -17,12 +17,10 @@ body {
 }
 
 #nav {
-    height: 50px;
-    margin-bottom: 30px;
     text-align: right;
-
     position: relative;
     top: -50px;
+    margin-bottom: -30px;
 }
 
 #nav-container {
@@ -41,18 +39,22 @@ body {
 }
 
 #nav ul li a {
-    display: block;
     padding: 0 15px;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    transition: background-color 0.5s;
     color: black;
-
     font-size: 11pt;
 }
 
+#nav ul li a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+#nav ul li a.home:hover {
+    color: #E8F2EB;
+}
+
 #nav ul li a.home {
+    display: inline-block;
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -109,22 +111,6 @@ body {
     font-size: 20pt;
     margin-right: 5px;
     color: #466965;
-}
-
-.description {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 60px;
-    position: absolute;
-    bottom: 0;
-
-    display: none;
-}
-
-.description h1 {
-    color: #ddd;
-    margin: 13px 10px 0 10px;
-    font-size: 24pt;
 }
 
 #project1 {

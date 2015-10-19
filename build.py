@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import codecs
 import shutil
 import os
 
@@ -42,7 +43,8 @@ class Site(object):
         """
         template = self.env.get_template(template)
 
-        with open(os.path.join(self.build_dir, filename), "wb") as f:
+        filename = os.path.join(self.build_dir, filename)
+        with codecs.open(filename, "wb", "utf-8") as f:
             f.write(template.render(content=content))
 
 
@@ -59,7 +61,7 @@ def main(yaml):
         if not content:
             raise ValueError("The `content` field is required for page "
                              "descriptors.")
-        with open(content, "r") as f:
+        with codecs.open(content, "r", "utf-8") as f:
             content = f.read()
 
         template = page.get(
