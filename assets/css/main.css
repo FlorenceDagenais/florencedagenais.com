@@ -122,6 +122,14 @@ body {
     background: url(../images/full_cave.png) no-repeat black;
 }
 
+#project-synthese {
+    background: url(../images/full_projetsynthese.png) no-repeat black;
+}
+
+#project-adventure-island {
+    background: url(../images/full_adventureisland.png) no-repeat black;
+}
+
 #project-extinction {
     background: url(../images/full_extinction.png) no-repeat black;
     background-position: center;

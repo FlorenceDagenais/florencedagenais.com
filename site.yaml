@@ -16,6 +16,10 @@ pages:
       template: default.html
       content: content/reflections.html
 
-    - filename: cave.html
+    - filename: synthese.html
       template: default.html
-      content: content/cave.html
+      content: content/synthese.html
+
+    - filename: adventure-island.html
+      template: default.html
+      content: content/adventure-island.html
