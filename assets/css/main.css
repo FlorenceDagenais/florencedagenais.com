@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body {
+    background-color: #fffdf0;
+}
+
+#header {
+    height: 200px;
+    line-height: 200px;
+    width: 100%;
+    margin: 0;
+
+    background-color: #a7a7a7;
+    -webkit-box-shadow: inset 16px -16px 107px 2px rgba(79, 79, 79, 1);
+    -moz-box-shadow: inset 16px -16px 107px 2px rgba(79, 79, 79, 1);
+    box-shadow: inset 16px -16px 107px 2px rgba(79, 79, 79, 1);
+}
+
+#nav {
+    text-align: right;
+    position: relative;
+    top: -50px;
+    margin-bottom: -30px;
+}
+
+#nav-container {
+    max-width: 1390px;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline-block;
+    height: 50px; /* -> #nav height */
+    line-height: 50px;
+}
+
+#nav ul li a {
+    padding: 0 15px;
+    color: black;
+    font-size: 11pt;
+}
+
+#nav ul li a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+#nav ul li a.home:hover {
+    color: #E8F2EB;
+}
+
+#nav ul li a.home {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #76b0a0;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-indent: -5px;
+}
+
+
+#content {
+    margin-bottom: 30px;
+    max-width: 1390px;
+}
+
+.padded {
+    padding: 0 100px;
+}
+
+.row-margin {
+    margin: 15px 0 0 0;
+}
+
+.project {
+    height: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.long-project {
+    height: 350px;
+    margin-bottom: 80px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.long-project p {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    height: 80px;
+    line-height: 110px;
+    background: url(../images/project_icon.png) no-repeat;
+    padding-left: 90px;
+
+    font-size: 13pt;
+}
+
+.long-project p a {
+    font-size: 20pt;
+    margin-right: 5px;
+    color: #466965;
+}
+
+#project1 {
+    background: url(../images/full_reflections.png) no-repeat black;
+    background-position: right;
+}
+
+#project2 {
+    background: url(../images/full_cave.png) no-repeat black;
+}
+
+#project-synthese {
+    background: url(../images/full_projetsynthese.png) no-repeat black;
+}
+
+#project-adventure-island {
+    background: url(../images/full_adventureisland.png) no-repeat black;
+}
+
+#project-extinction {
+    background: url(../images/full_extinction.png) no-repeat black;
+    background-position: center;
+}
+
+#reflections-full {
+    max-width: 1390px;
+    height: 359px;
+    background: url("../images/full_reflections.png") no-repeat;
+    background-position: right center;
+}
+
+#cave-full {
+    max-width: 1390px;
+    height: 359px;
+    background: url("../images/full_cave.png") no-repeat;
+    background-position: center center;
+}
+
+#manoir-full {
+    max-width: 1390px;
+    height: 359px;
+    background: url("../images/full_manoir.png") no-repeat;
+    background-position: center center;
+}
+
+#extinction-full {
+    max-width: 1390px;
+    height: 359px;
+    background: url("../images/full_extinction.png") no-repeat;
+    background-position: left center;
+}
+
+.video {
+    margin-top: 30px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.gdd-dld {
+    margin-top: 20px;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* Default Fonts */
+p, ul li {
+    font-family: Lato, sans-serif;
+}
+
+#nav ul li a {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 12pt;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: "Cinzel Decorative", "Droid Serif", serif;
+}
