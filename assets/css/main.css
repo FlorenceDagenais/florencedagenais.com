@@ -123,7 +123,7 @@ body {
 }
 
 #project-synthese {
-    background: url(../images/full_projetsynthese.png) no-repeat black;
+    background: url(../images/full_hereafter.png) no-repeat black;
 }
 
 #project-adventure-island {
@@ -161,6 +161,37 @@ body {
     height: 359px;
     background: url("../images/full_extinction.png") no-repeat;
     background-position: left center;
+}
+
+#adventure-island-full {
+    max-width: 1390px;
+    height: 359px;
+    background: url("../images/full_adventureisland.png") no-repeat;
+    background-position: left center;
+}
+
+#hereafter-full {
+    max-width: 1390px;
+    height: 359px;
+    background: url("../images/full_hereafter.png") no-repeat;
+    background-position: left center;
+}
+
+.hereafter-image-1 {
+    margin-top: 30px;
+    height: 382px;
+    max-width: 775px;
+    background: url("../images/hereafter_beauty_shot_1.png") no-repeat;
+    margin-right: -15px;
+}
+
+.hereafter-image-2 {
+    margin-top: 30px;
+    height: 382px;
+    max-width: 897px;
+    background: url("../images/hereafter_beauty_shot_2.png") no-repeat;
+    background-position: center center;
+    margin-right: -15px;
 }
 
 .video {

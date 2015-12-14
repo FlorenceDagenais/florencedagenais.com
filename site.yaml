@@ -16,10 +16,10 @@ pages:
       template: default.html
       content: content/reflections.html
 
-    - filename: synthese.html
+    - filename: adventure_island.html
       template: default.html
-      content: content/synthese.html
+      content: content/adventure_island.html
 
-    - filename: adventure-island.html
+    - filename: hereafter.html
       template: default.html
-      content: content/adventure-island.html
+      content: content/hereafter.html
