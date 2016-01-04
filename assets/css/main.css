@@ -88,38 +88,39 @@ body {
 }
 
 .long-project {
+    display: block;
     height: 350px;
-    margin-bottom: 80px;
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
-.long-project p {
-    position: absolute;
-    bottom: -50px;
-    left: 20px;
+.project-info {
     height: 80px;
     line-height: 110px;
     background: url(../images/project_icon.png) no-repeat;
     padding-left: 90px;
-
     font-size: 13pt;
+    margin: -40px 0 0 20px;
+    padding-top: 5px;
+    position: relative; /* For z-index */
+    z-index: 1;
+    margin-bottom: 40px;
 }
 
-.long-project p a {
+.project-info a h2 {
+    display: inline;
     font-size: 20pt;
     margin-right: 5px;
     color: #466965;
+    font-weight: normal;
+    font-family: Lato, sans-serif;
 }
 
-#project1 {
+.project-info p {
+    display: inline;
+}
+
+#project-reflections {
     background: url(../images/full_reflections.png) no-repeat black;
     background-position: right;
-}
-
-#project2 {
-    background: url(../images/full_cave.png) no-repeat black;
 }
 
 #project-synthese {
